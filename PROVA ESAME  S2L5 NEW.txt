@@ -1,0 +1,70 @@
+┏━━━┓┏━━┓┏━━━┓┏┓━┏┓┏━━━┓┏━━━┓━━━━┏━━━┓┏━━ ━┓┏┓━┏┓┏━ ━━┓┏━━━┓
+┃┏━┓┃┗┫┣┛┃┏━┓┃┃┃━┃┃┃┏━━┛┃┏━┓┃━━━━┃┏━┓┃┃┏━ ┓┃┃┃━┃┃┃┏ ━┓┃┗┓┏┓┃
+┃┃━┗┛━┃┃━┃┗━┛┃┃┗━┛┃┃┗━━┓┃┗━┛┃━━━━┃┗━━┓┃┃━ ┃┃┃┃━┃┃┃┃ ━┃┃━┃┃┃┃
+┃┃━┏┓━┃┃━┃┏━━┛┃┏━┓┃┃┏━━┛┃┏┓┏┛━━━━┗━━┓┃┃┃━ ┃┃┃┃━┃┃┃┗ ━┛┃━┃┃┃┃
+┃┗━┛┃┏┫┣┓┃┃━━━┃┃━┃┃┃┗━━┓┃┃┃┗┓━━━━┃┗━┛┃┃┗━ ┛┃┃┗━┛┃┃┏ ━┓┃┏┛┗┛┃
+┗━━━┛┗━━┛┗┛━━━┗┛━┗┛┗━━━┛┗┛┗━┛━━━━┗━━━┛┗━━ ┓┃┗━━━┛┗┛ ━┗┛┗━━━┛
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ┗┛━━━━━━━ ━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ━━━━━━━━━ ━━━━━━━━
+
+
+
+RELAZIONE ESERCIZIO S2L5:
+
+Dopo aver analizzato la traccia dell' esercizio (S2L5) in maniera approfondita, sono emersi diversi errori 
+di natura sintattica e logica.
+
+>righe 3-4-5-6: sarebbe più pulito eliminare lo spazio tra nome funzione e ()
+
+>riga 9: spazio aggiuntivo tra apertura main e parentesi graffa del blocco codice.
+
+>riga 12: le parentesi graffe sono inutili perche è una singola variabile char --> char scelta = '\0';
+
+>riga 13: non è pulitissimo lo spazio tra nome funzione e le parentesi (ovviamente vale per tutte le chiamate a funzione 
+          fatte in questo modo nel codice).
+
+>riga 14: non va messo %d ma %c perchè la %d fa riferimento ai numeri --> scanf (" %c", &scelta); inoltre va introdotto
+          lo spazio nel %c per rimuovere il problema dell'invio.
+
+>riga 18: andrebbe introdotto il caso della minuscola case 'A': case 'a': ( vale per tutti i case).
+
+>riga 19-20: non è indentato correttamete.
+
+>riga 26/27: manca il default nel caso in cui l'utente inserisca un valore diverso da quelli previsti.
+             
+>riga 28: si potrebbe inserire un ciclo do-while e la scelta con carattere 'D' per chiedere all'utente di uscire dal programma.
+
+>riga 29: non è indentato correttamente.
+
+>riga 45: qui è presente un errore di scittura, è corretto scrivere short int a = 0,b = 0;
+
+>riga 46: per un output più pulito è sempre meglio chiudere una stampa con \n (vale per tutti).
+
+>riga 47: al posto di %f va inserito %d perchè non è un float.
+
+>riga 50: per poter ottenere un risultato congruo a livello di range è meglio usare il tipo int == int prodotto = (int)a*b;
+
+>riga 52: essendo che si è corretto in short int è doveroso mettere %hd in printf.
+
+>riga 58: qui è presente lo stesso errore della riga 45
+
+>riga 61: non è indentato correttamente ed inoltre è presente un errore di italiano (denominatore).
+
+>riga 62: qui va introdotto un controllo sul denominatore che deve essere diverso da 0.
+
+>riga 64: qui è sbagliato il simbolo della divisione (ci va il diviso / al posto del %) ed inoltre ci va il float per restituire 
+          valori decimali.
+
+>riga 66: al posto dell'ultimo %d va messo il %f per la variabile divisione.
+
+>riga 75: anche qui non è indentato correttamente.
+
+>riga 77: qui deve essere introdotto un controllo in caso la stringa inserita abbia più di 9 caratteri.
+
+
+
+MAURIZIO PIETRANGELI 8/03/2024
+
+
+
+
